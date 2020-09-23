@@ -1,6 +1,6 @@
 class PositionsController < ApplicationController
   def index
-    @positions = Positions.all
+    @positions = Position.all
     render :index
   end
 end
